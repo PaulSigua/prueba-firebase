@@ -97,8 +97,18 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2,
+            "browserTarget": "prueba-firebase:build:production"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "9e1301f8-956a-46d7-90b2-9ce07a4ba822"
   }
 }

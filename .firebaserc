@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "prueba-firebase-c3262"
+  },
+  "targets": {
+    "prueba-firebase-c3262": {
+      "hosting": {
+        "prueba-firebase": [
+          "prueba-firebase-c3262"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+
+.formulario-edicion {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #5d87ff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 5px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario-edicion label {
+    margin-bottom: 8px;
+}
+
+.formulario-edicion input{
+    border-radius: 10px;
+    border: 1px solid #dee0e6;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    width: 250px;
+
+    &:focus {
+        border: 1px solid #b7bac3;
+        outline: none;
+    }
+}
+
+.formulario-edicion textarea{
+    border-radius: 10px;
+    border: 1px solid #dee0e6;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    width: 250px;
+    height: 100px;
+
+    &:focus {
+        border: 1px solid #b7bac3;
+        outline: none;
+    }
+}
+
+.formulario-edicion button {
+    border-radius: 10px;
+    background-color: #5d87ff;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+    &:hover {
+        background-color: #445fb2;
+    }
+}

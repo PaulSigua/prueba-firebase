@@ -1,0 +1,21 @@
+<div class="input-dates">
+    <form id="formularioReceta">
+  
+        <label for="" class="pick">Ingrese una nota:</label>
+        <input type="text" class="input-name-recet" placeholder="Titulo" #newNota>
+        <br>
+  
+        <label for="" class="pick">Ingrese una fecha:</label>
+        <input type="date" class="input-name-recet" placeholder="Ingredientes" #newFecha>
+        <br>
+  
+        <label for="" class="pick">Ingrese una etiqueta:</label>
+        <textarea class="input-text" id="" placeholder="Procedimiento" #newEtiqueta></textarea>
+        <br>
+  
+        <button class="button-ready" type="submit" (click)="addTarea(newNota, newFecha, newEtiqueta)">
+            Aceptar</button>
+    </form>
+  </div>
+
+  <router-outlet></router-outlet>
